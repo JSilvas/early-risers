@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "project": {
+    "name": "Early Risers"
+  },
+  "api": {
+    "projectId": "fek81ovh",
+    "dataset": "early-riser-data"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    }
+  ]
+}
